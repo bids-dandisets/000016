@@ -1,0 +1,52 @@
+{
+    "onset": {
+        "Description": "Onset of the event, measured from the beginning of the acquisition.",
+        "Units": "s"
+    },
+    "duration": {
+        "Description": "Duration of the event (measured from onset).",
+        "Units": "s"
+    },
+    "trial_type": {
+        "Description": "high-rate, low-rate"
+    },
+    "trial_pulse_rate": {
+        "Description": "ranged from 5-27Hz, 16Hz boundary for high/low rate"
+    },
+    "trial_response": {
+        "Description": "correct, incorrect, no center lick, no go-tone lick"
+    },
+    "trial_is_good": {
+        "Description": "good, bad"
+    },
+    "init_tone": {
+        "Description": "(sec) time of initiation tone w.r.t the start of the trial (t=0)"
+    },
+    "stim_onset": {
+        "Description": "(sec) time of stimulus onset w.r.t the start of the trial (t=0)"
+    },
+    "stim_offset": {
+        "Description": "(sec) time of stimulus offset w.r.t the start of the trial (t=0)"
+    },
+    "go_tone": {
+        "Description": "(sec) time of go tone w.r.t the start of the trial (t=0)"
+    },
+    "first_commit": {
+        "Description": "(sec) time of first commit w.r.t the start of the trial (t=0)"
+    },
+    "second_commit": {
+        "Description": "(sec) time of second commit w.r.t the start of the trial (t=0)"
+    },
+    "nwb_table": {
+        "Description": "The name of the NWB table from which this event was extracted.",
+        "Levels": {
+            "trials": "The 'trials' table in the NWB file."
+        },
+        "HED": {
+            "trials": "Experimental-trial"
+        }
+    },
+    "trials": {
+        "Description": "experimental trials"
+    }
+}
