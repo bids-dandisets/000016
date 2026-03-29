@@ -1,0 +1,168 @@
+	[WARNING] JSON_KEY_RECOMMENDED A JSON file is missing a key listed as recommended.
+		SourceDatasets
+		/dataset_description.json - Field description: Used to specify the locations and relevant attributes of all source datasets (BIDS or not).
+Valid keys in each object include `"URL"`, `"DOI"` (see
+[URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)), and
+`"Version"` with
+[string](https://www.w3schools.com/js/js_json_datatypes.asp)
+values.
+
+
+	Please visit https://neurostars.org/search?q=JSON_KEY_RECOMMENDED for existing conversations about this issue.
+
+	[WARNING] SIDECAR_KEY_RECOMMENDED A data file's JSON sidecar is missing a key listed as recommended.
+		InstitutionName
+		/sub-mouse3+fni18/ses-170506210042/ecephys/sub-mouse3+fni18_ses-170506210042_ecephys.nwb - Field description: The name of the institution in charge of the equipment that produced the
+measurements.
+
+		/sub-mouse3+fni18/ses-170503184117/ecephys/sub-mouse3+fni18_ses-170503184117_ecephys.nwb - Field description: The name of the institution in charge of the equipment that produced the
+measurements.
+
+
+		133 more files with the same issue
+
+		Manufacturer
+		/sub-mouse3+fni18/ses-170506210042/ecephys/sub-mouse3+fni18_ses-170506210042_ecephys.nwb - Field description: Manufacturer of the equipment that produced the measurements.
+
+		/sub-mouse3+fni18/ses-170503184117/ecephys/sub-mouse3+fni18_ses-170503184117_ecephys.nwb - Field description: Manufacturer of the equipment that produced the measurements.
+
+
+		133 more files with the same issue
+
+		RecordingDuration
+		/sub-mouse3+fni18/ses-170506210042/ecephys/sub-mouse3+fni18_ses-170506210042_ecephys.nwb - Field description: Length of the recording in seconds (for example, `3600`).
+
+		/sub-mouse3+fni18/ses-170503184117/ecephys/sub-mouse3+fni18_ses-170503184117_ecephys.nwb - Field description: Length of the recording in seconds (for example, `3600`).
+
+
+		133 more files with the same issue
+
+		RecordingType
+		/sub-mouse3+fni18/ses-170506210042/ecephys/sub-mouse3+fni18_ses-170506210042_ecephys.nwb - Field description: Defines whether the recording is `"continuous"`, `"discontinuous"`, or
+`"epoched"`, where `"epoched"` is limited to time windows about events of
+interest (for example, stimulus presentations or subject responses).
+
+		/sub-mouse3+fni18/ses-170503184117/ecephys/sub-mouse3+fni18_ses-170503184117_ecephys.nwb - Field description: Defines whether the recording is `"continuous"`, `"discontinuous"`, or
+`"epoched"`, where `"epoched"` is limited to time windows about events of
+interest (for example, stimulus presentations or subject responses).
+
+
+		133 more files with the same issue
+
+		HardwareFilters
+		/sub-mouse3+fni18/ses-170506210042/ecephys/sub-mouse3+fni18_ses-170506210042_ecephys.nwb - Field description: Object of temporal hardware filters applied, or `"n/a"` if the data is not
+available. Each key-value pair in the JSON object is a name of the filter and
+an object in which its parameters are defined as key-value pairs.
+For example, `{"Highpass RC filter": {"Half amplitude cutoff (Hz)":
+0.0159, "Roll-off": "6dB/Octave"}}`.
+
+		/sub-mouse3+fni18/ses-170503184117/ecephys/sub-mouse3+fni18_ses-170503184117_ecephys.nwb - Field description: Object of temporal hardware filters applied, or `"n/a"` if the data is not
+available. Each key-value pair in the JSON object is a name of the filter and
+an object in which its parameters are defined as key-value pairs.
+For example, `{"Highpass RC filter": {"Half amplitude cutoff (Hz)":
+0.0159, "Roll-off": "6dB/Octave"}}`.
+
+
+		133 more files with the same issue
+
+		BodyPart
+		/sub-mouse3+fni18/ses-170506210042/ecephys/sub-mouse3+fni18_ses-170506210042_ecephys.nwb - Field description: Body part of the organ / body region scanned.
+
+		/sub-mouse3+fni18/ses-170503184117/ecephys/sub-mouse3+fni18_ses-170503184117_ecephys.nwb - Field description: Body part of the organ / body region scanned.
+
+
+		133 more files with the same issue
+
+		BodyPartDetails
+		/sub-mouse3+fni18/ses-170506210042/ecephys/sub-mouse3+fni18_ses-170506210042_ecephys.nwb - Field description: Additional details about body part or location (for example: `"corpus callosum"`).
+
+		/sub-mouse3+fni18/ses-170503184117/ecephys/sub-mouse3+fni18_ses-170503184117_ecephys.nwb - Field description: Additional details about body part or location (for example: `"corpus callosum"`).
+
+
+		133 more files with the same issue
+
+		StimulusPresentation
+		/sub-mouse3+fni18/ses-170506210042/ecephys/sub-mouse3+fni18_ses-170506210042_events.tsv - Field description: Object containing key-value pairs related to the software used to present
+the stimuli during the experiment.
+
+		/sub-mouse3+fni18/ses-170503184117/ecephys/sub-mouse3+fni18_ses-170503184117_events.tsv - Field description: Object containing key-value pairs related to the software used to present
+the stimuli during the experiment.
+
+
+		133 more files with the same issue
+
+	Please visit https://neurostars.org/search?q=SIDECAR_KEY_RECOMMENDED for existing conversations about this issue.
+
+	[WARNING] EVENT_ONSET_ORDER The onset column in events.tsv files should be sorted.
+
+		/sub-mouse3+fni18/ses-170503184117/ecephys/sub-mouse3+fni18_ses-170503184117_events.tsv
+		/sub-mouse3+fni18/ses-170501121720/ecephys/sub-mouse3+fni18_ses-170501121720_events.tsv
+
+		83 more files with the same issue
+
+	Please visit https://neurostars.org/search?q=EVENT_ONSET_ORDER for existing conversations about this issue.
+
+	[ERROR] SIDECAR_KEY_REQUIRED A data file's JSON sidecar is missing a key listed as required.
+		PowerLineFrequency
+		/sub-mouse3+fni18/ses-170506210042/ecephys/sub-mouse3+fni18_ses-170506210042_ecephys.nwb - Field description: Frequency (in Hz) of the power grid at the geographical location of the
+instrument (for example, `50` or `60`).
+
+		/sub-mouse3+fni18/ses-170503184117/ecephys/sub-mouse3+fni18_ses-170503184117_ecephys.nwb - Field description: Frequency (in Hz) of the power grid at the geographical location of the
+instrument (for example, `50` or `60`).
+
+
+		133 more files with the same issue
+
+		SamplingFrequency
+		/sub-mouse3+fni18/ses-170506210042/ecephys/sub-mouse3+fni18_ses-170506210042_ecephys.nwb - Field description: Sampling frequency (in Hz) of all the data in the recording,
+regardless of their type (for example, `2400`).
+
+		/sub-mouse3+fni18/ses-170503184117/ecephys/sub-mouse3+fni18_ses-170503184117_ecephys.nwb - Field description: Sampling frequency (in Hz) of all the data in the recording,
+regardless of their type (for example, `2400`).
+
+
+		133 more files with the same issue
+
+		SoftwareFilters
+		/sub-mouse3+fni18/ses-170506210042/ecephys/sub-mouse3+fni18_ses-170506210042_ecephys.nwb - Field description: [Object](https://www.json.org/json-en.html)
+of temporal software filters applied, or `"n/a"` if the data is
+not available.
+Each key-value pair in the JSON object is a name of the filter and an object
+in which its parameters are defined as key-value pairs
+(for example, `{"Anti-aliasing filter":
+{"half-amplitude cutoff (Hz)": 500, "Roll-off": "6dB/Octave"}}`).
+
+		/sub-mouse3+fni18/ses-170503184117/ecephys/sub-mouse3+fni18_ses-170503184117_ecephys.nwb - Field description: [Object](https://www.json.org/json-en.html)
+of temporal software filters applied, or `"n/a"` if the data is
+not available.
+Each key-value pair in the JSON object is a name of the filter and an object
+in which its parameters are defined as key-value pairs
+(for example, `{"Anti-aliasing filter":
+{"half-amplitude cutoff (Hz)": 500, "Roll-off": "6dB/Octave"}}`).
+
+
+		133 more files with the same issue
+
+	Please visit https://neurostars.org/search?q=SIDECAR_KEY_REQUIRED for existing conversations about this issue.
+
+	[ERROR] TSV_VALUE_INCORRECT_TYPE A value in a column did not match the acceptable type for that column headers specified format.
+		onset
+		/sub-mouse3+fni18/ses-170506210042/ecephys/sub-mouse3+fni18_ses-170506210042_events.tsv - ''
+		/sub-mouse3+fni18/ses-170503184117/ecephys/sub-mouse3+fni18_ses-170503184117_events.tsv - ''
+
+		84 more files with the same issue
+
+		duration
+		/sub-mouse3+fni18/ses-170506210042/ecephys/sub-mouse3+fni18_ses-170506210042_events.tsv - ''
+		/sub-mouse3+fni18/ses-170503184117/ecephys/sub-mouse3+fni18_ses-170503184117_events.tsv - ''
+
+		84 more files with the same issue
+
+	Please visit https://neurostars.org/search?q=TSV_VALUE_INCORRECT_TYPE for existing conversations about this issue.
+
+
+          Summary:                           Available Tasks:        Available Modalities:
+          416 Files, 5.79 MB                                         microephys           
+          4 - Subjects 135 - Sessions                                                     
+
+	If you have any questions, please post on https://neurostars.org/tags/bids.
