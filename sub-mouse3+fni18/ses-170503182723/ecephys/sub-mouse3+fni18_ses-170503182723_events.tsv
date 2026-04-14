@@ -404,9 +404,9 @@ onset	duration	nwb_table	trial_type	trial_pulse_rate	trial_response	trial_is_goo
 0.04434922977355159	2.3948220064724923	trials	Low-rate	6.9897483690587645	correct	True	0.5734989999998361	0.7391639999998734	1.1681639999998734	1.1688300000000744	1.5973280000002124	1.9048270000000485
 0.045347229773784005	2.2330097087378644	trials	Low-rate	6.74915635545564	correct	True	0.5971639999998734	0.7169969999999739	1.1609969999999739	1.1624949999996461	1.5206600000001491	1.8078259999998845
 0.04634822977321305	3.2686084142394827	trials	Low-rate	6.770480704130064	correct	True	1.6218269999995827	1.8384929999997839	2.281492999999784	2.28199199999962	2.5303239999995566	2.834988999999594
-		trials	High-rate	25.581395348837397	no decision	False						
-		trials	Low-rate	6.850879196163571	no decision	False						
-		trials	High-rate	22.476961114857513	no decision	False						
-		trials	High-rate	24.24509587833401	no decision	False						
-		trials	High-rate	23.52941176470625	no decision	False						
-		trials	High-rate	21.137180300148312	no decision	False						
+n/a	n/a	trials	High-rate	25.581395348837397	no decision	False						
+n/a	n/a	trials	Low-rate	6.850879196163571	no decision	False						
+n/a	n/a	trials	High-rate	22.476961114857513	no decision	False						
+n/a	n/a	trials	High-rate	24.24509587833401	no decision	False						
+n/a	n/a	trials	High-rate	23.52941176470625	no decision	False						
+n/a	n/a	trials	High-rate	21.137180300148312	no decision	False						

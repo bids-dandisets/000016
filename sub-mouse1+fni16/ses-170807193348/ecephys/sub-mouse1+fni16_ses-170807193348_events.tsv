@@ -221,5 +221,5 @@ onset	duration	nwb_table	trial_type	trial_pulse_rate	trial_response	trial_is_goo
 0.044345229773503476	1.0679611650485439	trials	Low-rate	7	no center lick	False	0.5366639999999897					
 0.045849229773438804	2.4919093851132685	trials	High-rate	26	no center lick	False	2.0508239999997895					
 0.04834622977338726	5.177993527508092	trials	High-rate	26	incorrect	True	0.5609979999996721	0.6979969999999739	1.697996999999974	1.1278289999999105	1.3934950000001118	1.754660000000149
-		trials	High-rate	26	no decision	False						
-		trials	High-rate	26	no decision	False						
+n/a	n/a	trials	High-rate	26	no decision	False						
+n/a	n/a	trials	High-rate	26	no decision	False						

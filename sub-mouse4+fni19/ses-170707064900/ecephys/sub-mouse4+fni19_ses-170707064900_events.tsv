@@ -222,4 +222,4 @@ onset	duration	nwb_table	trial_type	trial_pulse_rate	trial_response	trial_is_goo
 0.044346229773387265	3.8511326860841426	trials	High-rate	27	no decision	False						
 0.04434722977343476	5.016181229773463	trials	High-rate	27	no decision	False						
 0.04734322977357765	3.8834951456310685	trials	High-rate	26	no decision	False						
-		trials	Low-rate	6	no decision	False						
+n/a	n/a	trials	Low-rate	6	no decision	False						
